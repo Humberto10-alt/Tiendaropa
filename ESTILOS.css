@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #665075;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Container{
+  width: 1200px;
+  background: #f9b7e3;
+  margin: 10px auto;
+}
+.Superior{
+background: #f9b7e3;
+overflow: hidden;
+}
+.logo{
+float: left;
+width: 300px;
+padding: 35px;
+}
+/*estilos para el menu opciones*/
+.menu{
+  float: left;
+  padding: 100px;
+center
+}
+  .opciones li{
+    float: left;
+    list-style: none;
+  }
+  .opciones li a{
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid black;
+  }
+  .opciones li a:hover{
+    background: #f9b7e3;
+  }
+  .titulo{
+  text-align: center;
+  }
+  /*estilo para el cuerpo*/
+  
+  .cuerpo{
+    overflow: hidden;
+  }
+  .caja{
+    overflow: hidden;
+    float: left;
+    width: 380px;
+    margin: 8px;
+    border: 1px solid;
+  }
+  
+  .subtitulo{
+    background: #665075;
+  }
+  .servicios{
+    color: #f9b7e3;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .efecto:hover{
+  opacity: 0.8;
+  cursor: pointer;
+
+  }
+  .contenido{
+  padding: 10px;
+  text-align: justify;
+  }
+
+  .boton{
+  padding: 15px 20px;
+  margin: 20px 0;
+  color: white;
+  background-color: #665075;
+  border-radius: 25px;
+  }
+  .boton:hover{
+    background: #665075;
+    cursor: pointer;
+  }
+  .titulo{
+    text-align: center;
+    padding: 20px 0 15px;
+    color: #000000;
+  }
+  
+  .pie{
+    background: #ff74d0;
+    overflow: hidden;
+  }
+  .izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+  }
+  .derecha{
+    float: left;
+    width: 550px;
+    padding: 20px;
+  }
+  .abajo{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .siguenos{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  /*/Textos de las descripciones/*/
+  
+  .Descripcion1{
+    text-align: center;
+    text-align: justify;
+    padding: 40px 20px 10px 0px;
+    font-family: Times New Roman;
+  }
+  .Descripcion2{
+    text-align: center;
+    text-align: justify;
+    padding: 80px;
+    font-family: Times New Roman;
+  }
+  
+  .Descripcion3{
+  text-align: center;
+    text-align: justify;
+    padding: 50px;
+    font-family: Times New Roman;
+  }
+  .Descripcion4{
+    text-align: center;
+    text-align: justify;
+    padding: 40px;
+    font-family: Times New Roman;
+  }
+  
+  .Descripcion5{
+    text-align: left;
+    text-align: justify;
+    padding: 5px;
+    font-family: Times New Roman;
+  }
+  .Descripcion6{
+    text-align: left;
+    text-align: justify;
+    padding: 30px;
+    font-family: Times New Roman;
+    
+  }
+  .Descripcion7{
+    text-align: left;
+    text-align: justify;
+    padding: 10px;
+    font-family: Times New Roman;
+  }
+  
+  .usos{
+    text-align: left;
+    text-align: justify;
+    padding: 10px;
+    font-family: Times New Roman;
+  }
+  
+  .portada{
+    padding: 30px 30px 30px 30px;
+  }
+  
+  .galery{
+    display: flex;
+    height: 30rem;
+    width: 80%;
+    gap: 1rem;
+   margin: 0px 100px 0px 100px;
+  }
+  .galery > div {
+    flex: 1;
+    border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+  }
+  .galery > div:hover {
+    flex: 5;
+  }
+  
+  .tops{
+      width: 1200px;
+  background: #f9b7e3;
+  margin: 100px auto;
+  overflow: hidden;
+  }
